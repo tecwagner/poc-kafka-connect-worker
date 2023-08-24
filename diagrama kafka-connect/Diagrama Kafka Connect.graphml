@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.6-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:VuejsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yjs:Font x:Key="1" fontSize="12"/>
+			<y:Json x:Key="2">{"type":"annotation-item-type"}</y:Json>
+			<yjs:Stroke x:Key="3" fill="#FF000000"/>
+			<yjs:PolylineEdgeStyle x:Key="4" stroke="{y:GraphMLReference 3}">
+				<yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:Arrow stroke="{y:GraphMLReference 3}" fill="#FF000000"/>
+				</yjs:PolylineEdgeStyle.targetArrow>
+			</yjs:PolylineEdgeStyle>
+			<yjs:Arrow x:Key="5" stroke="#FF000000" fill="#FF000000"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","origin":"yed-live","theme":{"name":"light","version":"1.0.0"}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">1</data>
+			<data key="d5">
+				<y:RectD X="-110.25" Y="-98" Width="60" Height="60"/>
+			</data>
+			<data key="d7">
+				<icon-style:CroppingImageNodeStyle image="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Cpolygon%20points%3D%2215.26%2016.18%2015.26%207.18%2013.23%207.18%2011.38%2012.22%209.52%207.18%207.44%207.18%207.44%2016.18%209.06%2016.18%209.06%209.91%2010.57%2013.96%2012.12%2013.96%2013.64%209.87%2013.64%2016.18%2015.26%2016.18%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M18%2C17.42a1%2C1%2C0%2C0%2C1-.74.26%2C5%2C5%2C0%2C0%2C1-.62-.05v1.19a3.6%2C3.6%2C0%2C0%2C0%2C1.14.2%2C1.67%2C1.67%2C0%2C0%2C0%2C1.2-.43%2C3.16%2C3.16%2C0%2C0%2C0%2C.73-1.39l2.19-7.66H20.06l-1%2C4.89-1-4.89H16.2l2.14%2C6.77%2C0%2C.24A1.47%2C1.47%2C0%2C0%2C1%2C18%2C17.42Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M24.68%2C14.92a5.52%2C5.52%2C0%2C0%2C1-1-.12%2C7%2C7%2C0%2C0%2C1-1.08-.3v1.36a3.89%2C3.89%2C0%2C0%2C0%2C1%2C.38%2C5.73%2C5.73%2C0%2C0%2C0%2C1.23.14%2C3.17%2C3.17%2C0%2C0%2C0%2C2.2-.72%2C2.53%2C2.53%2C0%2C0%2C0%2C.8-2%2C2.9%2C2.9%2C0%2C0%2C0-.19-1.08A2.41%2C2.41%2C0%2C0%2C0%2C27%2C11.8%2C5.2%2C5.2%2C0%2C0%2C0%2C26%2C11.08l-.7-.38a2.57%2C2.57%2C0%2C0%2C1-.77-.57%2C1%2C1%2C0%2C0%2C1-.2-.67.93.93%2C0%2C0%2C1%2C.31-.75%2C1.27%2C1.27%2C0%2C0%2C1%2C.86-.27%2C5.43%2C5.43%2C0%2C0%2C1%2C1.85.39V7.45a4.82%2C4.82%2C0%2C0%2C0-2-.47%2C3.22%2C3.22%2C0%2C0%2C0-1.45.32%2C2.42%2C2.42%2C0%2C0%2C0-1%2C.91%2C2.6%2C2.6%2C0%2C0%2C0-.36%2C1.38%2C2.46%2C2.46%2C0%2C0%2C0%2C.41%2C1.46%2C4%2C4%2C0%2C0%2C0%2C1.38%2C1.12l.7.37a2.52%2C2.52%2C0%2C0%2C1%2C.76.57%2C1.18%2C1.18%2C0%2C0%2C1-.1%2C1.52A1.32%2C1.32%2C0%2C0%2C1%2C24.68%2C14.92Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M35.55%2C14.57a6.37%2C6.37%2C0%2C0%2C0%2C.59-2.9%2C5.56%2C5.56%2C0%2C0%2C0-1-3.46%2C3.5%2C3.5%2C0%2C0%2C0-5.33%2C0%2C5.56%2C5.56%2C0%2C0%2C0-.95%2C3.46%2C5.7%2C5.7%2C0%2C0%2C0%2C.9%2C3.42%2C3.11%2C3.11%2C0%2C0%2C0%2C2.54%2C1.29A5.86%2C5.86%2C0%2C0%2C0%2C34%2C17.72a6%2C6%2C0%2C0%2C0%2C2%2C.69V16.93a5.64%2C5.64%2C0%2C0%2C1-1.21-.26%2C3.33%2C3.33%2C0%2C0%2C1-.9-.51A3.15%2C3.15%2C0%2C0%2C0%2C35.55%2C14.57Zm-1.72-.48a1.44%2C1.44%2C0%2C0%2C1-2.6%2C0%2C5.14%2C5.14%2C0%2C0%2C1-.44-2.42%2C5.4%2C5.4%2C0%2C0%2C1%2C.42-2.43%2C1.41%2C1.41%2C0%2C0%2C1%2C1.32-.79%2C1.4%2C1.4%2C0%2C0%2C1%2C1.31.79%2C5.25%2C5.25%2C0%2C0%2C1%2C.43%2C2.43A5.27%2C5.27%2C0%2C0%2C1%2C33.83%2C14.09Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpolygon%20points%3D%2237.67%207.18%2037.67%2016.18%2042.56%2016.18%2042.56%2014.74%2039.49%2014.74%2039.49%207.18%2037.67%207.18%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M40%2C20.28c-5%2C0-10%2C1.56-10%2C4.55V45.17c0%2C3%2C5%2C4.55%2C10%2C4.55s10-1.56%2C10-4.55V24.83C50%2C21.84%2C45%2C20.28%2C40%2C20.28Zm.13%2C2c5.19%2C0%2C8%2C1.68%2C8%2C2.55s-2.83%2C2.56-8%2C2.56-8-1.69-8-2.56S34.93%2C22.28%2C40.13%2C22.28Zm0%2C25.44c-5.2%2C0-8-1.68-8-2.55V41.75a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v3.42C48.15%2C46%2C45.32%2C47.72%2C40.13%2C47.72Zm0-6.23c-5.2%2C0-8-1.69-8-2.56V34.77a16.78%2C16.78%2C0%2C0%2C0%2C8%2C1.73%2C16.77%2C16.77%2C0%2C0%2C0%2C8-1.73v4.16C48.15%2C39.8%2C45.32%2C41.49%2C40.13%2C41.49Zm0-7c-5.2%2C0-8-1.69-8-2.56V27.65a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v4.29C48.15%2C32.81%2C45.32%2C34.5%2C40.13%2C34.5Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M43.55%2C0H6.45A6.45%2C6.45%2C0%2C0%2C0%2C0%2C6.45v37.1A6.45%2C6.45%2C0%2C0%2C0%2C6.45%2C50H30V48H6.45A4.46%2C4.46%2C0%2C0%2C1%2C2%2C43.55V6.45A4.46%2C4.46%2C0%2C0%2C1%2C6.45%2C2h37.1A4.46%2C4.46%2C0%2C0%2C1%2C48%2C6.45V21h2V6.45A6.45%2C6.45%2C0%2C0%2C0%2C43.55%2C0Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3C%2Fsvg%3E" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9838709677419355,0.5"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9838709677419355,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d0">2</data>
+			<data key="d5">
+				<y:RectD X="-110.25" Y="-18.125" Width="60" Height="60"/>
+			</data>
+			<data key="d7">
+				<icon-style:CroppingImageNodeStyle image="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Cpath%20d%3D%22M4.27%2C10.75v2.69H3.33V6.51h2a1.79%2C1.79%2C0%2C0%2C1%2C1%2C.27A1.76%2C1.76%2C0%2C0%2C1%2C7%2C7.53a2.57%2C2.57%2C0%2C0%2C1%2C.23%2C1.1%2C2.26%2C2.26%2C0%2C0%2C1-.52%2C1.54%2C1.7%2C1.7%2C0%2C0%2C1-1.35.58Zm0-.77h1A.86.86%2C0%2C0%2C0%2C6%2C9.62a1.62%2C1.62%2C0%2C0%2C0%2C.27-1%2C1.63%2C1.63%2C0%2C0%2C0-.27-1%2C.88.88%2C0%2C0%2C0-.73-.35h-1Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M10%2C13.57a1.7%2C1.7%2C0%2C0%2C1-1.46-.69%2C3.29%2C3.29%2C0%2C0%2C1-.5-2%2C3.28%2C3.28%2C0%2C0%2C1%2C.5-2A1.7%2C1.7%2C0%2C0%2C1%2C10%2C8.24a1.69%2C1.69%2C0%2C0%2C1%2C1.45.69%2C3.28%2C3.28%2C0%2C0%2C1%2C.51%2C2%2C3.29%2C3.29%2C0%2C0%2C1-.51%2C2A1.69%2C1.69%2C0%2C0%2C1%2C10%2C13.57Zm0-.76a.83.83%2C0%2C0%2C0%2C.77-.47A3.23%2C3.23%2C0%2C0%2C0%2C11%2C10.9a3.26%2C3.26%2C0%2C0%2C0-.25-1.44A.83.83%2C0%2C0%2C0%2C10%2C9a.81.81%2C0%2C0%2C0-.77.46%2C3.12%2C3.12%2C0%2C0%2C0-.25%2C1.44%2C3.09%2C3.09%2C0%2C0%2C0%2C.25%2C1.44A.81.81%2C0%2C0%2C0%2C10%2C12.81Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M14.81%2C12.08c0-.29-.19-.52-.56-.7l-.65-.32a1.43%2C1.43%2C0%2C0%2C1-.89-1.38%2C1.4%2C1.4%2C0%2C0%2C1%2C.41-1%2C1.51%2C1.51%2C0%2C0%2C1%2C1.09-.4%2C2.49%2C2.49%2C0%2C0%2C1%2C1.21.32v.68A2.63%2C2.63%2C0%2C0%2C0%2C14.29%2C9a.8.8%2C0%2C0%2C0-.54.18.63.63%2C0%2C0%2C0-.19.49.64.64%2C0%2C0%2C0%2C.13.42%2C1.4%2C1.4%2C0%2C0%2C0%2C.46.33l.6.3a1.65%2C1.65%2C0%2C0%2C1%2C.69.55%2C1.41%2C1.41%2C0%2C0%2C1%2C.21.79%2C1.5%2C1.5%2C0%2C0%2C1-.42%2C1.11%2C1.58%2C1.58%2C0%2C0%2C1-1.15.42%2C2.73%2C2.73%2C0%2C0%2C1-1.41-.37v-.68a3.73%2C3.73%2C0%2C0%2C0%2C1.35.31.77.77%2C0%2C0%2C0%2C.58-.2A.71.71%2C0%2C0%2C0%2C14.81%2C12.08Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M18.83%2C13.32a2.38%2C2.38%2C0%2C0%2C1-.91.18%2C1.14%2C1.14%2C0%2C0%2C1-.92-.34%2C1.57%2C1.57%2C0%2C0%2C1-.29-1.05v-3H16V8.51l.75-.12L16.88%2C7h.77V8.37h1.16v.76H17.65V12a.88.88%2C0%2C0%2C0%2C.12.53.51.51%2C0%2C0%2C0%2C.44.16%2C1.91%2C1.91%2C0%2C0%2C0%2C.62-.1Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M22.29%2C12.83a1.67%2C1.67%2C0%2C0%2C1-1.14.51%2C1.31%2C1.31%2C0%2C0%2C1-.88-.32%2C2%2C2%2C0%2C0%2C1-.57-.87%2C4.07%2C4.07%2C0%2C0%2C1-.2-1.32A3.39%2C3.39%2C0%2C0%2C1%2C20%2C8.94a1.36%2C1.36%2C0%2C0%2C1%2C1.21-.7%2C1.79%2C1.79%2C0%2C0%2C1%2C1.21.54l.06-.41h.79v4.78c0%2C1.65-.67%2C2.47-2%2C2.47a2.74%2C2.74%2C0%2C0%2C1-1.4-.37v-.72a3.47%2C3.47%2C0%2C0%2C0%2C1.32.31%2C1%2C1%2C0%2C0%2C0%2C.89-.38%2C2.34%2C2.34%2C0%2C0%2C0%2C.25-1.26Zm-.87-.26a1.39%2C1.39%2C0%2C0%2C0%2C.87-.38V9.37A1.51%2C1.51%2C0%2C0%2C0%2C21.38%2C9a.75.75%2C0%2C0%2C0-.71.43%2C3.11%2C3.11%2C0%2C0%2C0-.23%2C1.36%2C2.7%2C2.7%2C0%2C0%2C0%2C.25%2C1.33A.77.77%2C0%2C0%2C0%2C21.42%2C12.57Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M24.56%2C13.44V8.37h.78l.09.61a1.87%2C1.87%2C0%2C0%2C1%2C.57-.5%2C1.47%2C1.47%2C0%2C0%2C1%2C.67-.15%2C1.66%2C1.66%2C0%2C0%2C1%2C.32%2C0v.87a2.74%2C2.74%2C0%2C0%2C0-.45%2C0%2C1.64%2C1.64%2C0%2C0%2C0-1%2C.37v3.88Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M28.32%2C11.11a2.27%2C2.27%2C0%2C0%2C0%2C.32%2C1.3%2C1.13%2C1.13%2C0%2C0%2C0%2C1%2C.4%2C3.06%2C3.06%2C0%2C0%2C0%2C1.26-.31v.69a2.64%2C2.64%2C0%2C0%2C1-1.42.38%2C1.79%2C1.79%2C0%2C0%2C1-1.52-.66%2C3.34%2C3.34%2C0%2C0%2C1-.5-2%2C3.36%2C3.36%2C0%2C0%2C1%2C.5-2%2C1.67%2C1.67%2C0%2C0%2C1%2C1.43-.69%2C1.42%2C1.42%2C0%2C0%2C1%2C1.2.52%2C2.47%2C2.47%2C0%2C0%2C1%2C.4%2C1.53%2C3.6%2C3.6%2C0%2C0%2C1-.08.83Zm1-2.16a.82.82%2C0%2C0%2C0-.71.38%2C2.26%2C2.26%2C0%2C0%2C0-.29%2C1.14h1.8s0-.08%2C0-.13V10.2a1.72%2C1.72%2C0%2C0%2C0-.2-.95A.67.67%2C0%2C0%2C0%2C29.32%2C9Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M33.16%2C10.14a2.64%2C2.64%2C0%2C0%2C1-1-.78%2C1.86%2C1.86%2C0%2C0%2C1-.3-1.08%2C1.87%2C1.87%2C0%2C0%2C1%2C.53-1.38%2C1.94%2C1.94%2C0%2C0%2C1%2C1.39-.52%2C3.8%2C3.8%2C0%2C0%2C1%2C1.5.36v.78a3.35%2C3.35%2C0%2C0%2C0-1.43-.31%2C1%2C1%2C0%2C0%2C0-.74.27%2C1.05%2C1.05%2C0%2C0%2C0-.28.75%2C1.07%2C1.07%2C0%2C0%2C0%2C.19.63%2C1.86%2C1.86%2C0%2C0%2C0%2C.63.49l.71.36a2.41%2C2.41%2C0%2C0%2C1%2C1%2C.78%2C1.9%2C1.9%2C0%2C0%2C1%2C.3%2C1.08A2%2C2%2C0%2C0%2C1%2C35.08%2C13a2.11%2C2.11%2C0%2C0%2C1-1.52.55%2C3.22%2C3.22%2C0%2C0%2C1-.88-.11%2C2.35%2C2.35%2C0%2C0%2C1-.74-.3v-.77a4.12%2C4.12%2C0%2C0%2C0%2C1.59.35%2C1%2C1%2C0%2C0%2C0%2C1.14-1.13%2C1.24%2C1.24%2C0%2C0%2C0-.79-1.13Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M36.6%2C10a4.47%2C4.47%2C0%2C0%2C1%2C.69-2.66%2C2.45%2C2.45%2C0%2C0%2C1%2C3.86%2C0A4.47%2C4.47%2C0%2C0%2C1%2C41.84%2C10a5%2C5%2C0%2C0%2C1-.48%2C2.33A2.25%2C2.25%2C0%2C0%2C1%2C40%2C13.48a3.41%2C3.41%2C0%2C0%2C0%2C.83.49%2C4%2C4%2C0%2C0%2C0%2C1%2C.23v.85a4.2%2C4.2%2C0%2C0%2C1-1.44-.47%2C5%2C5%2C0%2C0%2C1-1.25-1%2C2.4%2C2.4%2C0%2C0%2C1-1.35-.48%2C2.68%2C2.68%2C0%2C0%2C1-.84-1.24A5.6%2C5.6%2C0%2C0%2C1%2C36.6%2C10Zm1%2C0A4.24%2C4.24%2C0%2C0%2C0%2C38%2C12.06a1.4%2C1.4%2C0%2C0%2C0%2C2.44%2C0A4.13%2C4.13%2C0%2C0%2C0%2C40.85%2C10a4.13%2C4.13%2C0%2C0%2C0-.41-2.08A1.41%2C1.41%2C0%2C0%2C0%2C38%2C7.9%2C4.24%2C4.24%2C0%2C0%2C0%2C37.59%2C10Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M43.18%2C13.44V6.51h1v6.12h2.52v.81Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M40%2C20.28c-5%2C0-10%2C1.56-10%2C4.55V45.17c0%2C3%2C5%2C4.55%2C10%2C4.55s10-1.56%2C10-4.55V24.83C50%2C21.84%2C45%2C20.28%2C40%2C20.28Zm.13%2C2c5.19%2C0%2C8%2C1.68%2C8%2C2.55s-2.83%2C2.56-8%2C2.56-8-1.69-8-2.56S34.93%2C22.28%2C40.13%2C22.28Zm0%2C25.44c-5.2%2C0-8-1.68-8-2.55V41.75a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v3.42C48.15%2C46%2C45.32%2C47.72%2C40.13%2C47.72Zm0-6.23c-5.2%2C0-8-1.69-8-2.56V34.77a16.78%2C16.78%2C0%2C0%2C0%2C8%2C1.73%2C16.77%2C16.77%2C0%2C0%2C0%2C8-1.73v4.16C48.15%2C39.8%2C45.32%2C41.49%2C40.13%2C41.49Zm0-7c-5.2%2C0-8-1.69-8-2.56V27.65a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v4.29C48.15%2C32.81%2C45.32%2C34.5%2C40.13%2C34.5Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M43.55%2C0H6.45A6.45%2C6.45%2C0%2C0%2C0%2C0%2C6.45v37.1A6.45%2C6.45%2C0%2C0%2C0%2C6.45%2C50H30V48H6.45A4.46%2C4.46%2C0%2C0%2C1%2C2%2C43.55V6.45A4.46%2C4.46%2C0%2C0%2C1%2C6.45%2C2h37.1A4.46%2C4.46%2C0%2C0%2C1%2C48%2C6.45V21h2V6.45A6.45%2C6.45%2C0%2C0%2C0%2C43.55%2C0Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3C%2Fsvg%3E" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9838709677419355,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n2">
+			<data key="d0">3</data>
+			<data key="d5">
+				<y:RectD X="-113.75" Y="66.375" Width="60" Height="60"/>
+			</data>
+			<data key="d7">
+				<icon-style:CroppingImageNodeStyle image="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Cpath%20d%3D%22M4.86%2C10.6A3%2C3%2C0%2C0%2C1%2C3.8%2C9.74a1.87%2C1.87%2C0%2C0%2C1-.32-1.12%2C2%2C2%2C0%2C0%2C1%2C.28-1.07%2C1.84%2C1.84%2C0%2C0%2C1%2C.76-.7%2C2.49%2C2.49%2C0%2C0%2C1%2C1.12-.24A3.74%2C3.74%2C0%2C0%2C1%2C7.21%2C7V8a4.21%2C4.21%2C0%2C0%2C0-1.43-.3%2C1%2C1%2C0%2C0%2C0-.66.21.73.73%2C0%2C0%2C0-.24.58A.85.85%2C0%2C0%2C0%2C5%2C9a1.92%2C1.92%2C0%2C0%2C0%2C.6.44l.54.29a3.76%2C3.76%2C0%2C0%2C1%2C.82.56%2C1.79%2C1.79%2C0%2C0%2C1%2C.45.62%2C2.09%2C2.09%2C0%2C0%2C1%2C.15.83A1.93%2C1.93%2C0%2C0%2C1%2C7%2C13.28a2.43%2C2.43%2C0%2C0%2C1-1.69.56%2C3.73%2C3.73%2C0%2C0%2C1-.94-.12%2C2.78%2C2.78%2C0%2C0%2C1-.79-.29v-1a5.19%2C5.19%2C0%2C0%2C0%2C.83.23%2C4.45%2C4.45%2C0%2C0%2C0%2C.8.1%2C1.06%2C1.06%2C0%2C0%2C0%2C.73-.23.84.84%2C0%2C0%2C0%2C.25-.65A.78.78%2C0%2C0%2C0%2C6%2C11.32a1.93%2C1.93%2C0%2C0%2C0-.58-.43Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M8.44%2C10.22a4.26%2C4.26%2C0%2C0%2C1%2C.73-2.67%2C2.43%2C2.43%2C0%2C0%2C1%2C2.05-.94%2C2.44%2C2.44%2C0%2C0%2C1%2C2%2C.94A4.33%2C4.33%2C0%2C0%2C1%2C14%2C10.22a4.87%2C4.87%2C0%2C0%2C1-.46%2C2.22%2C2.45%2C2.45%2C0%2C0%2C1-1.31%2C1.23%2C2.31%2C2.31%2C0%2C0%2C0%2C.69.38%2C3.56%2C3.56%2C0%2C0%2C0%2C.93.21v1.13a4.43%2C4.43%2C0%2C0%2C1-1.52-.52%2C4.5%2C4.5%2C0%2C0%2C1-1.25-1%2C2.41%2C2.41%2C0%2C0%2C1-1.95-1A4.36%2C4.36%2C0%2C0%2C1%2C8.44%2C10.22Zm1.44%2C0a4%2C4%2C0%2C0%2C0%2C.34%2C1.86%2C1.11%2C1.11%2C0%2C0%2C0%2C2%2C0%2C4.11%2C4.11%2C0%2C0%2C0%2C.34-1.86%2C4.06%2C4.06%2C0%2C0%2C0-.33-1.87%2C1.14%2C1.14%2C0%2C0%2C0-2%2C0A3.93%2C3.93%2C0%2C0%2C0%2C9.88%2C10.22Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M15.18%2C13.68V6.76h1.4v5.82h2.36v1.1Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M22.88%2C10.6a3.16%2C3.16%2C0%2C0%2C1-1.07-.86%2C1.94%2C1.94%2C0%2C0%2C1-.32-1.12%2C2%2C2%2C0%2C0%2C1%2C.29-1.07%2C1.84%2C1.84%2C0%2C0%2C1%2C.76-.7%2C2.45%2C2.45%2C0%2C0%2C1%2C1.11-.24A3.75%2C3.75%2C0%2C0%2C1%2C25.23%2C7V8a4.21%2C4.21%2C0%2C0%2C0-1.43-.3%2C1%2C1%2C0%2C0%2C0-.66.21.73.73%2C0%2C0%2C0-.24.58.85.85%2C0%2C0%2C0%2C.15.51%2C1.92%2C1.92%2C0%2C0%2C0%2C.6.44l.54.29a3.76%2C3.76%2C0%2C0%2C1%2C.82.56%2C1.79%2C1.79%2C0%2C0%2C1%2C.45.62%2C2.09%2C2.09%2C0%2C0%2C1%2C.14.83A1.92%2C1.92%2C0%2C0%2C1%2C25%2C13.28a2.43%2C2.43%2C0%2C0%2C1-1.69.56%2C3.87%2C3.87%2C0%2C0%2C1-.95-.12%2C3%2C3%2C0%2C0%2C1-.79-.29v-1a5.64%2C5.64%2C0%2C0%2C0%2C.84.23%2C4.45%2C4.45%2C0%2C0%2C0%2C.8.1%2C1.06%2C1.06%2C0%2C0%2C0%2C.73-.23.84.84%2C0%2C0%2C0%2C.25-.65.78.78%2C0%2C0%2C0-.18-.52%2C1.87%2C1.87%2C0%2C0%2C0-.59-.43Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M27.56%2C11.48a1.63%2C1.63%2C0%2C0%2C0%2C.3%2C1%2C1.16%2C1.16%2C0%2C0%2C0%2C.87.3%2C2.67%2C2.67%2C0%2C0%2C0%2C.57-.08%2C5.67%2C5.67%2C0%2C0%2C0%2C.67-.2v.91a2.43%2C2.43%2C0%2C0%2C1-.69.29%2C3.88%2C3.88%2C0%2C0%2C1-.82.09c-1.43%2C0-2.15-.89-2.15-2.67a3.24%2C3.24%2C0%2C0%2C1%2C.53-2%2C1.8%2C1.8%2C0%2C0%2C1%2C1.52-.69c1.13%2C0%2C1.7.69%2C1.7%2C2.08a4.69%2C4.69%2C0%2C0%2C1-.1%2C1Zm.75-2.1c-.47%2C0-.73.41-.75%2C1.24H28.9v-.23a1.66%2C1.66%2C0%2C0%2C0-.14-.78A.48.48%2C0%2C0%2C0%2C28.31%2C9.38Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M31%2C13.68V8.58h1.13l.15.66a2.07%2C2.07%2C0%2C0%2C1%2C.59-.54%2C1.19%2C1.19%2C0%2C0%2C1%2C.62-.17%2C1.84%2C1.84%2C0%2C0%2C1%2C.33%2C0V9.77a2.55%2C2.55%2C0%2C0%2C0-.53%2C0%2C1.82%2C1.82%2C0%2C0%2C0-.91.24v3.72Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M35.81%2C13.68l-1.54-5.1h1.46l.74%2C3.64.76-3.64h1.41l-1.54%2C5.1Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M40.27%2C11.48a1.76%2C1.76%2C0%2C0%2C0%2C.3%2C1%2C1.18%2C1.18%2C0%2C0%2C0%2C.88.3%2C2.67%2C2.67%2C0%2C0%2C0%2C.57-.08%2C5%2C5%2C0%2C0%2C0%2C.66-.2v.91a2.21%2C2.21%2C0%2C0%2C1-.69.29%2C3.75%2C3.75%2C0%2C0%2C1-.82.09c-1.42%2C0-2.14-.89-2.14-2.67a3.24%2C3.24%2C0%2C0%2C1%2C.53-2%2C1.78%2C1.78%2C0%2C0%2C1%2C1.51-.69c1.14%2C0%2C1.7.69%2C1.7%2C2.08a4.07%2C4.07%2C0%2C0%2C1-.1%2C1ZM41%2C9.38c-.47%2C0-.73.41-.76%2C1.24h1.34v-.23a1.69%2C1.69%2C0%2C0%2C0-.13-.78A.49.49%2C0%2C0%2C0%2C41%2C9.38Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M43.72%2C13.68V8.58h1.11l.15.66a2.23%2C2.23%2C0%2C0%2C1%2C.6-.54%2C1.17%2C1.17%2C0%2C0%2C1%2C.63-.17%2C1.63%2C1.63%2C0%2C0%2C1%2C.31%2C0V9.77a2.44%2C2.44%2C0%2C0%2C0-.53%2C0%2C1.85%2C1.85%2C0%2C0%2C0-.91.24v3.72Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M40%2C20.28c-5%2C0-10%2C1.56-10%2C4.55V45.17c0%2C3%2C5%2C4.55%2C10%2C4.55s10-1.56%2C10-4.55V24.83C50%2C21.84%2C45%2C20.28%2C40%2C20.28Zm.13%2C2c5.19%2C0%2C8%2C1.68%2C8%2C2.55s-2.83%2C2.56-8%2C2.56-8-1.69-8-2.56S34.93%2C22.28%2C40.13%2C22.28Zm0%2C25.44c-5.2%2C0-8-1.68-8-2.55V41.75a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v3.42C48.15%2C46%2C45.32%2C47.72%2C40.13%2C47.72Zm0-6.23c-5.2%2C0-8-1.69-8-2.56V34.77a16.78%2C16.78%2C0%2C0%2C0%2C8%2C1.73%2C16.77%2C16.77%2C0%2C0%2C0%2C8-1.73v4.16C48.15%2C39.8%2C45.32%2C41.49%2C40.13%2C41.49Zm0-7c-5.2%2C0-8-1.69-8-2.56V27.65a16.66%2C16.66%2C0%2C0%2C0%2C8%2C1.74%2C16.65%2C16.65%2C0%2C0%2C0%2C8-1.74v4.29C48.15%2C32.81%2C45.32%2C34.5%2C40.13%2C34.5Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3Cpath%20d%3D%22M43.55%2C0H6.45A6.45%2C6.45%2C0%2C0%2C0%2C0%2C6.45v37.1A6.45%2C6.45%2C0%2C0%2C0%2C6.45%2C50H30V48H6.45A4.46%2C4.46%2C0%2C0%2C1%2C2%2C43.55V6.45A4.46%2C4.46%2C0%2C0%2C1%2C6.45%2C2h37.1A4.46%2C4.46%2C0%2C0%2C1%2C48%2C6.45V21h2V6.45A6.45%2C6.45%2C0%2C0%2C0%2C43.55%2C0Z%22%20style%3D%22fill%3A%233b48cc%22%2F%3E%3C%2Fsvg%3E" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9838709677419355,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n3">
+			<data key="d0">12</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="45.125" Y="-8.0625" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="575.25,100,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.01379310344827589,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n4">
+			<data key="d0">13</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="45.125" Y="-88" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="590.25,115,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.01379310344827589,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.01379310344827589,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n5">
+			<data key="d0">14</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="45.125" Y="76.375" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="590.25,115,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.01379310344827589,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n6">
+			<data key="d0">15</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="150.125" Y="-8.0625" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="590.25,115,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9862068965517241,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n7">
+			<data key="d0">16</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="150.125" Y="-88" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="605.25,130,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9862068965517241,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n8">
+			<data key="d0">17</data>
+			<data key="d3"><![CDATA[Connector
+]]></data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text>Connector</y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="150.125" Y="76.375" Width="70.5" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle minimumSize="40,40"/>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="605.25,130,70.5,40"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.9862068965517241,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n9">
+			<data key="d0">18</data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorLabelModel.North}">
+						<y:Label.Text><![CDATA[Kafka Connect]]></y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="3.75" Y="-132.25" Width="258.25" Height="288.25"/>
+			</data>
+			<data key="d7">
+				<bpmn:GroupNodeStyle/>
+			</data>
+			<graph id="n9:" edgedefault="directed"/>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9965546942291128"/>
+				</data>
+			</port>
+		</node>
+		<node id="n10">
+			<data key="d0">19</data>
+			<data key="d4">
+				<x:List>
+					<y:Label Tag="{y:GraphMLReference 2}">
+						<y:Label.Text>JDBC</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:RatioAnchoredLabelModelParameter LayoutOffset="90,28"/>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<bpmn:AnnotationLabelStyle/>
+						</y:Label.Style>
+					</y:Label>
+					<y:Label Tag="{y:GraphMLReference 2}">
+						<y:Label.Text>ELASTICSEARCH</y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:RatioAnchoredLabelModelParameter LayoutOffset="90,106"/>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<bpmn:AnnotationLabelStyle/>
+						</y:Label.Style>
+					</y:Label>
+					<y:Label Tag="{y:GraphMLReference 2}">
+						<y:Label.Text><![CDATA[AWS LAMBDA]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:RatioAnchoredLabelModelParameter LayoutOffset="90,200.75"/>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<bpmn:AnnotationLabelStyle/>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="321.75" Y="-108" Width="80" Height="80"/>
+			</data>
+			<data key="d7">
+				<demostyle:AssetNodeStyle assetName="database.svg" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.012195121951219523,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n11">
+			<data key="d0">20</data>
+			<data key="d5">
+				<y:RectD X="321.75" Y="-28.0625" Width="80" Height="80"/>
+			</data>
+			<data key="d7">
+				<demostyle:AssetNodeStyle assetName="database.svg" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.012195121951219523,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n12">
+			<data key="d0">21</data>
+			<data key="d5">
+				<y:RectD X="321.75" Y="56.375" Width="80" Height="80"/>
+			</data>
+			<data key="d7">
+				<demostyle:AssetNodeStyle assetName="database.svg" clipMode="outline"/>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.012195121951219523,0.5"/>
+				</data>
+			</port>
+		</node>
+		<node id="n13">
+			<data key="d0">22</data>
+			<data key="d4">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.Center}">
+						<y:Label.Text><![CDATA[Apache Kafka]]></y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" wrapping="WORD" clipText="false" textWrappingShape="LABEL_SHAPE" font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+					</y:Label>
+					<y:Label>
+						<y:Label.Text><![CDATA[<h2>Dinâmica Sobre o Kafka Connect</h2>]]></y:Label.Text>
+						<y:Label.LayoutParameter>
+							<y:RatioAnchoredLabelModelParameter LayoutOffset="-13.375,-428"/>
+						</y:Label.LayoutParameter>
+						<y:Label.Style>
+							<yjs:MarkupLabelStyle font="{y:GraphMLReference 1}" textFill="BLACK"/>
+						</y:Label.Style>
+						<y:Label.Tag>
+							<y:Json>{"type":"annotation-item-type"}</y:Json>
+						</y:Label.Tag>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d5">
+				<y:RectD X="3.75" Y="212.25" Width="258.25" Height="40"/>
+			</data>
+			<data key="d7">
+				<bpmn:ActivityNodeStyle activityType="TRANSACTION" minimumSize="40,40"/>
+			</data>
+			<port name="p0"/>
+		</node>
+		<edge id="e0" source="n0" target="n4" sourceport="p1" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e1" source="n1" target="n3" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e2" source="n2" target="n5" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e3" source="n10" target="n7" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e4" source="n11" target="n6" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e5" source="n12" target="n8" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="4"/>
+			</data>
+		</edge>
+		<edge id="e6" source="n13" target="n9" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle targetArrow="{y:GraphMLReference 5}" sourceArrow="{y:GraphMLReference 5}">
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke fill="#FF000000" thickness="0.75"/>
+					</yjs:PolylineEdgeStyle.stroke>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+	</graph>
+</graphml>
